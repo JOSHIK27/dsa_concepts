@@ -40,11 +40,7 @@ void merge_sort(int i, int j,vector<int> &arr) {
 }
 
 int main() {
-
-
     vector<int> arr = { 20, -10, -19, -5, 0, 99, 1, 3, 2 };
     merge_sort(0, arr.size()-1, arr);
-
     for(int i : arr) cout<<i<<" ";
-
 }
